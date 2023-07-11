@@ -1,0 +1,23 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e9f0ef), to(#3c4c4f));
+  background: -o-linear-gradient(#e9f0ef, #3c4c4f);
+  background: linear-gradient(#e9f0ef, #3c4c4f);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  padding: 0 calc(50vw - 520px);
+}
+.header__title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: normal;
+  border-bottom: 1px solid #2f4a4f;
+}
